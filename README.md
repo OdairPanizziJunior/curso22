@@ -1,14 +1,13 @@
 # curso22
-Como dar permissão para pastas Linux?
 
-* Comando -> sudo chmod 777 -r .
+### Como dar permissão para pastas Linux?
 
-SUDO    Significa -> Executar como admin
-CHMOD   Significa -> permitir 
-777     Significa -> Permissão total dos aquivos
--R      Significa -> Recursivo (tudo que estiver dentro dela)
-.       Significa -> Pasta local
+*sudo chmod 777 -r .*
 
-Como Subir o arquivo para o GitHub?
-
-* Comando -> git add .
+| Comando | Significado | 
+|--- |--- |
+| SUDO | Executar como admin |  
+|CHMOD | Permitir |
+|777 | Permissão total dos aquivos|
+|-R | Recursivo (tudo que estiver dentro dela)|
+|. |Pasta local|
