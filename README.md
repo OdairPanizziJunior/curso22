@@ -2,7 +2,7 @@
 
 ### Como dar permissão para pastas Linux?
 
-*sudo chmod 777 -r .*
+*sudo chmod 777 -R .*
 
 | Comando | Significado | 
 |--- |--- |
