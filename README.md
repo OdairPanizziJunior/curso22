@@ -12,4 +12,3 @@
 |-R | Recursivo (tudo que estiver dentro dela)|
 |. |Pasta local|
 
-##Estou no DEV
