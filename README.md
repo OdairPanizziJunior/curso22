@@ -11,3 +11,5 @@
 |777 | Permissão total dos aquivos|
 |-R | Recursivo (tudo que estiver dentro dela)|
 |. |Pasta local|
+
+##Estou no DEV
