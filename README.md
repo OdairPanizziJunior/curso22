@@ -12,3 +12,8 @@
 |-R | Recursivo (tudo que estiver dentro dela)|
 |. |Pasta local|
 
+### Como Associar editores de texto ao Git
+* git config --global core.editor "vim"
+
+### Como Associar editores de texto ao Ubuntu
+* sudo update-alternatives --config editor
