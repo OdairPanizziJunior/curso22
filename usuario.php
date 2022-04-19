@@ -1,4 +1,9 @@
 <?php
+
+//TESTES
+
+
+
 $palavra = "Info";  
 $palavra .= "serv";
 echo "$palavra";
@@ -26,10 +31,45 @@ if($num % 2 == 0){
 
 
 echo "<br>";
+echo "===============";
+echo "<br>";
 
+
+switch($num){
+
+    case 0:
+        echo "o {$num} é par. <br>";
+        break;
+    default: echo "O {$num} é impar. <br>"; //Default é quando não acha nenhum CASE
+        break;
+    }
+
+
+echo "<br>";
+echo "===============";
+echo "<br>";
 
 
 $valor1 = 10;
 $valor2 = 20;
 $soma = $valor1 + $valor2;
 echo "A soma de {$valor1} + {$valor2} é {$soma}.";
+
+
+echo "<br>";
+echo "===============";
+echo "<br>";
+
+$var = [
+    0 => "é par",
+    1 => "é impar"
+];
+echo $var[$num] ?? "não foi possível calcular";
+//Quando não existir o valor cai nele ->>>> ??
+
+echo "<br>";
+echo "===============";
+echo "<br>";
+
+
+
