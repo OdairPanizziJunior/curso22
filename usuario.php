@@ -5,7 +5,7 @@ echo "$palavra";
 ?>
 
 
-<form action="usuario.php" method="post">     <!-- criar um formulário em HTML passando qual arquivo .php  -->
+<form action="usuario.php" method="post">               <!-- criar um formulário em HTML passando qual arquivo .php  -->
 Digite um Número: <input type="number" name="Num"> 
 <input type="submit" name="Submit" value="OK">
 </form>
@@ -28,9 +28,8 @@ if($num % 2 == 0){
 echo "<br>";
 
 
-/*
+
 $valor1 = 10;
 $valor2 = 20;
 $soma = $valor1 + $valor2;
 echo "A soma de {$valor1} + {$valor2} é {$soma}.";
-*/
