@@ -1,45 +1,45 @@
-<form action="teste.php" method="post">               <!-- criar um formulário em HTML passando qual arquivo .php  -->
-Digite um Número: <input type="text" name="Num" size="1"> 
-<input type="submit" name="Submit" value="OK">
-</form>
+<div align="center"> 
+    <form action="teste.php" method="post">              
+    Digite um Número: <input type="text" name="Num" size="5"> 
+    <input type="submit" name="Submit" value="OK">
+    </form>
 
 <?php
 
-$i = 0;
 $num = $_POST['Num'];
 
-for($i = 0; $i <= 5; $i++){
-    $array = array($num);
-}
-echo $num;
 
-$array = array();
-echo "<br>";
-$array[] = $_POST['Num'];
-print_r($array);
+if(isset($_POST['Num'])){
+   // $nums = $_POST['Num'];
 
-//  for($b = 1; $num = $_POST['Num'] <=5; $b++){
-//      $numero[] = $num;
-//      echo $b;
-// }
+        foreach($nums as $num){
+            echo $num."<br>";
+        }
+    }
 
-// $numero[] = $num;
 
-// $resto  = 0;
-// //$numero = [4, 2, 5, 1, 10, 99, 50, 3, 9, 12];
-// $contPares = 0;
-
-// function pares ($numero) {
-//     $i = 0;
-//     for ($contPares = 1; $contPares <= 5; $contPares++) {
+$num_individual = array_map('intval',explode(',', $num));
    
-//     $resto = $numero[$i] % 2;
-        
-//         if($resto == 0){
-//             $contPares++;
-//         }    
-//         $i++;   
-//     }
-//     echo "No Array Temos {$contPares} pares usando a função FOR";
-// }
-// pares($numero);
+    echo "<pre>";
+    print_r("Números digitados: {$num}");
+    echo "</pre>";
+
+
+$cont_par = 0;
+$cont_impar = 0;
+
+foreach($num_individual as $n){
+    $resto = $n%2;
+    if($resto == 0){
+        $cont_par++;
+    }else{
+        $cont_impar++;
+    }
+}
+
+echo "<br> Pares: ".$cont_par;
+echo "<br> Ímpares: ".$cont_impar;
+
+?>
+
+</div>
