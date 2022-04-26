@@ -1,3 +1,9 @@
+# :fireworks: **Welcome Folks!** :fireworks:
+*This is my PHP :elephant: folde Course 2022 on [infoserv](http://www.escolainfoserv.com.br/):eyes:
+ that contains what I'm Studying* 
+ 
+ [Main Page](https://github.com/OdairPanizziJunior)
+
 # curso22
 
 ### Como dar permissão para pastas Linux?
@@ -12,11 +18,9 @@
 |-R | Recursivo (tudo que estiver dentro dela)|
 |. |Pasta local|
 
-##Estou no DEV
+### Como Associar editores de texto ao Git
+* git config --global core.editor "vim"
 
+### Como Associar editores de texto ao Ubuntu
+* sudo update-alternatives --config editor
 
-# :fireworks: **Welcome Folks!** :fireworks:
-*This is my PHP :elephant: folde Course 2022 on [infoserv](http://www.escolainfoserv.com.br/):eyes:
- that contains what I'm Studying* 
- 
- [Main Page](https://github.com/OdairPanizziJunior)
