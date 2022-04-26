@@ -1,5 +1,5 @@
 # :fireworks: **Welcome Folks!** :fireworks:
-*This is my PHP :elephant: folde Course 2022 on [infoserv](http://www.escolainfoserv.com.br/):eyes:
+*This is my PHP :elephant: folder Course 2022 on [infoserv](http://www.escolainfoserv.com.br/):eyes:
  that contains what I'm Studying* 
  
  [Main Page](https://github.com/OdairPanizziJunior)
