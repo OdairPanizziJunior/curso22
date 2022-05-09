@@ -11,7 +11,7 @@ function par_impar_FOR ($numero) {
     $i = 0;
     $contPares = 0;
     $contImpar = 0;
-    for ($i = 0; $i < count($numero); $i++) {
+    for ($i = 0; $i < count($numero); $i++) { //count - Conta o número de elementos de uma variável
    
     $resto = $numero[$i] % 2;
   
