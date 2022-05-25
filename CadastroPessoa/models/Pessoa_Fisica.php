@@ -10,6 +10,5 @@ class Pessoa_Fisica extends Pessoa{
     public $born = "";
     public $profession = ""; 
     public $schooling = "";
-
-
+    
 }

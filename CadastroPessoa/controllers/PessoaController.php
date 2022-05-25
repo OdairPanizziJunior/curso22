@@ -12,10 +12,6 @@ $pessoa_fisica = new Pessoa_Fisica();
     $pessoa_fisica->profession = "PROGRAMADOR";
     $pessoa_fisica->schooling = "PÓS GRADUAÇÃO";
 
-$pessoa = new Pessoa();
-$pessoa->create($pessoa_fisica);
-
-
 $pessoa_juridica = new Pessoa_Juridica();
 
     $pessoa_juridica->id = 2;
@@ -26,3 +22,4 @@ $pessoa_juridica = new Pessoa_Juridica();
 
 $pessoa = new Pessoa();
 $pessoa->create($pessoa_juridica);
+$pessoa->create($pessoa_fisica);
