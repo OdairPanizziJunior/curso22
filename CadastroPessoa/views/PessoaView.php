@@ -67,9 +67,9 @@
 
             <div class="row mb-3"><!-- $foundation / $born  -->
                 <label class="col-sm-2 col-form-label">Born/Foundation:</label>
-                <div class="col-sm-2">
-                    <input class="form-control" type="date">
-                </div>
+                    <div class="col-sm-2">
+                        <input class="form-control" type="date">
+                    </div>
             </div>
 
             <div>
@@ -77,11 +77,11 @@
                     <legend class="col-form-label col-sm-2 pt-0">Type</legend>
                         <div class="col-sm-10">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" value="CPF" checked>
+                                <input class="form-check-input" type="radio" name="gridRadios1" value="CPF" checked>
                                 <label class="form-check-label"> CPF </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" value="CNPJ">
+                                <input class="form-check-input" type="radio" name="gridRadios1" value="CNPJ">
                                 <label class="form-check-label"> CNPJ </label>
                             </div>
                             <div class="col-sm-2">
@@ -92,62 +92,88 @@
             </div>
 
             <div class="row mb-3"><!-- $marital_status -->
-            <fieldset class="row mb-3"> <!-- $CPF / $CNPJ  -->
+            <fieldset class="row mb-3"> 
                     <legend class="col-form-label col-sm-2 pt-0">Marietal Status:</legend>
                         <div class="col-sm-10">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" value="CPF" checked>
-                                <label class="form-check-label"> CPF </label>
+                                <input class="form-check-input" type="radio" name="gridRadios2" value="CPF" checked>
+                                <label class="form-check-label"> Single</label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" value="CNPJ">
-                                <label class="form-check-label"> CNPJ </label>
+                                <input class="form-check-input" type="radio" name="gridRadios2" value="CNPJ">
+                                <label class="form-check-label"> Relationship </label>
                             </div>
-                            <div class="col-sm-2">
-                                <input class="form-control" type="text" placeholder="type the numbers">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios2" value="CNPJ">
+                                <label class="form-check-label"> I'm a company </label>
                             </div>
                         </div>
                 </fieldset>
             </div>
-    
 
-            <div class="row mb-3">
-                    <div class="col-sm-10 offset-sm-2">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck1">
-                            <label class="form-check-label" for="gridCheck1"> Example checkbox </label>
+            <div class="row mb-3"><!-- $gender -->
+            <fieldset class="row mb-3"> 
+                    <legend class="col-form-label col-sm-2 pt-0">Gender:</legend>
+                        <div class="col-sm-10">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios3" value="CPF" checked>
+                                <label class="form-check-label"> Male</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios3" value="CNPJ">
+                                <label class="form-check-label"> Female </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios3" value="CNPJ">
+                                <label class="form-check-label"> I'm a company </label>
+                            </div>
                         </div>
+                </fieldset>
+            </div>
+
+            <div class="row mb-3"><!-- $RG -->
+                <label class="col-sm-2 col-form-label">RG:</label>
+                    <div class="col-sm-2">
+                        <input class="form-control" type="text">
                     </div>
             </div>
+
+            <div class="row mb-3"><!-- $PIS -->
+                <label class="col-sm-2 col-form-label">PIS:</label>
+                    <div class="col-sm-2">
+                        <input class="form-control" type="text">
+                    </div>
+            </div>
+
+            <div class="row mb-3"><!-- $profession -->
+                <label class="col-sm-2 col-form-label">Profession:</label>
+                    <div class="col-sm-2">
+                        <input class="form-control" type="text">
+                    </div>
+            </div>
+
+            <div class="row mb-3"><!-- $CNAE -->
+                <label class="col-sm-2 col-form-label">CNAE:</label>
+                    <div class="col-sm-2">
+                        <input class="form-control" type="text">
+                    </div> 
+            </div>
+            
+            <div class="row mb-3"><!-- $schooling -->
+                <label class="col-sm-2 col-form-label">Schooling:</label>
+                    <div class="col-sm-2">
+                        <select class="form-select">
+                            <option selected>Choose...</option>
+                            <option value="1">Primary School</option> 
+                            <option value="2">Secondary School</option>
+                            <option value="3">Graduated</option>
+                            <option value="4">Post Graduated</option>
+                        </select>
+                    </div>
+            </div>
+        
             <button type="submit" class="btn btn-primary">Confirm</button>
-
             
-            <div><!-- $RG -->
-                <label for="rg">RG:</label>
-                <input type="text" id="rg" />
-            </div>
-            <div><!-- $PIS -->
-                <label for="pis">PIS:</label>
-                <input type="text" id="pis" />
-            </div>
-            <div><!-- $gender -->
-                <label for="gender">Gender:</label>
-                <input type="text" id="gender" />
-            </div>
-            
-            <div><!-- $profession -->
-                <label for="$profession">Profession:</label>
-                <input type="text" id="$profession" />
-            </div>
-            <div><!-- $schooling -->
-                <label for="$schooling">Schooling:</label>
-                <input type="text" id="$schooling" />
-            </div>
-
-            <div><!-- $CNAE -->
-                <label for="$cnae">CNAE:</label>
-                <input type="text" id="$cnae" />
-            </div>
         </form>
 
 
