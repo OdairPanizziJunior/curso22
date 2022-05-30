@@ -72,7 +72,7 @@
                     </div>
             </div>
 
-            <div>
+            <div class="row mb-0">
                 <fieldset class="row mb-3"> <!-- $CPF / $CNPJ  -->
                     <legend align="center" class="col-form-label col-sm-2 pt-0">Type</legend>
                         <div class="col-sm-10">
