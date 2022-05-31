@@ -10,7 +10,7 @@
     <title>Cadastro Pessoa</title>
 </head>
     <body>
-    <form>
+    <form class="col-md-12">
            
             <div class="row mb-3"> <!-- $id  -->
                 <label align="center" class="col-sm-2 col-form-label">ID</label>
