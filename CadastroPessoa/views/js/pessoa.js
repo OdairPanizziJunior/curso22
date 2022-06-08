@@ -7,10 +7,15 @@ $( document ).ready(function() {
         baseUrl += "?id=" + idPessoa;
 
         $.get(baseUrl).done(function(response){
-            console.log(JSON.stringify(response));
+            var dadosPessoa = response[0];
+            console.log("I'm click of Edit button id: " + response[0]);
+
+            $("#idBanco").val(dadosPessoa.id);
+            $("#idName").val(dadosPessoa.nome);
+
+            $(".modal").modal('show');
         });
 
-        console.log("I'm click of Edit button id: " + idPessoa);
     });
 
     $(".btnExcluir").on("click", function(){

@@ -31,7 +31,7 @@
                                     <div class="row mb-3"> <!-- $id  -->
                                         <label align="center" class="col-md-2 col-sm-12 col-form-label">ID</label>
                                             <div class="col-md-2 col-sm-12">
-                                                <input type="number" class="form-control" placeholder="select">
+                                                <input id="idBanco" type="text" class="form-control">
                                             </div>
                                     </div>
 
@@ -49,7 +49,7 @@
                                     <div class="row mb-3"> <!-- $name  -->
                                         <label align="center" class="col-md-2 col-sm-12 col-form-label">Name:</label>
                                             <div class="col-md-3 col-sm-12">
-                                                <input class="form-control" type="text">
+                                                <input id="idName" class="form-control" type="text">
                                             </div>
                                     </div>
                                 
