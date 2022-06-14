@@ -56,7 +56,7 @@
                                     <div class="row mb-3"><!-- $mail -->
                                         <label align="center" class="col-md-2 col-sm-12 col-form-label">E-mail:</label>
                                             <div class="col-md-3 col-sm-12">
-                                                <input class="form-control" type="email">
+                                                <input id="idEmail" class="form-control" type="email">
                                             </div>
                                     </div>
 
@@ -219,7 +219,7 @@
                                 <td>odair@curso.com</td>
                                 <td>(54) 91234-5678</td>
                                 <td>
-                                    <button class="btnEditar btn btn-primary" value="10">Edit</button>
+                                    <button class="btnEditar btn btn-primary" value="5">Edit</button>
                                     <button class="btnExcluir btn btn-primary" value="5">Delete</button>
                                 </td>
                         </tr>
