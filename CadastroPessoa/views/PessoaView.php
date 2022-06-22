@@ -38,7 +38,7 @@
                                     <div class="row mb-3"><!-- $status -->
                                         <label align="center" class="col-md-2 col-sm-12 col-form-label">Status:</label>
                                             <div class="col-md-3 col-sm-12">
-                                                <select class="form-select">
+                                                <select id="idStatus" class="form-select">
                                                     <option selected>Choose...</option>
                                                     <option value="1">Active</option>
                                                     <option value="2">Inactive</option>
@@ -62,29 +62,29 @@
 
                                     <div class="row mb-3"><!-- $phone -->
                                         <label align="center" class="col-md-2 col-sm-12 col-form-label">Phone:</label>
-                                            <div class="col-md-2 col-sm-12">
-                                                <input class="form-control" type="text">
+                                            <div class="col-md-3 col-sm-12">
+                                                <input id="idPhone" class="form-control" type="text">
                                             </div>
                                     </div>
 
                                     <div class="row mb-3"><!-- $CEP -->
                                         <label align="center" class="col-md-2 col-sm-12 col-form-label">CEP:</label>
                                             <div class="col-md-2 col-sm-12">
-                                                <input class="form-control" type="text">
+                                                <input id="idCep" class="form-control" type="text">
                                             </div>
                                     </div>
 
                                     <div class="row mb-3"><!-- $socialweb -->
                                         <label align="center" class="col-md-2 col-sm-12 col-form-label">Social Web:</label>
                                         <div class="col-md-3 col-sm-12">
-                                            <input class="form-control" type="url">
+                                            <input id="idSocial" class="form-control" type="url">
                                         </div>
                                     </div>
 
                                     <div class="row mb-3"><!-- $foundation / $born  -->
                                         <label align="center" class="col-md-2 col-sm-12 col-form-label">Born/Foundation:</label>
-                                            <div class="col-md-2 col-sm-12">
-                                                <input class="form-control" type="date">
+                                            <div class="col-md-3 col-sm-12">
+                                                <input id="idBorn_Fundation" class="form-control" type="date">
                                             </div>
                                     </div>
 
@@ -93,11 +93,11 @@
                                             <legend align="center" class="col-form-label col-md-2 col-sm-12 pt-0">Type</legend>
                                                 <div class="col-md-10 col-sm-12">
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="radio" name="gridRadios1" value="CPF" checked>
+                                                        <input id="idCPF" class="form-check-input" type="radio" name="gridRadios1" value="1" checked>
                                                         <label class="form-check-label"> CPF </label>
                                                     </div>
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="radio" name="gridRadios1" value="CNPJ">
+                                                        <input id="idCNPJ" class="form-check-input" type="radio" name="gridRadios1" value="2">
                                                         <label class="form-check-label"> CNPJ </label>
                                                     </div>
                                                     <div class="col-md-2 col-sm-12">
@@ -219,7 +219,7 @@
                                 <td>odair@curso.com</td>
                                 <td>(54) 91234-5678</td>
                                 <td>
-                                    <button class="btnEditar btn btn-primary" value="5">Edit</button>
+                                    <button class="btnEditar btn btn-primary" value="10">Edit</button>
                                     <button class="btnExcluir btn btn-primary" value="5">Delete</button>
                                 </td>
                         </tr>

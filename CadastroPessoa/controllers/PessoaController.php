@@ -35,7 +35,12 @@ $dadosPessoa = [
                         "phone" => "54 912345678",
                         "gender" => "M",
                         "type" => "CPF",
-                        "cep" => "95720123"
+                        "cep" => "95720123",
+                        "social" => "https://linkedin.com",
+                        "status" => "1",
+                        "born_fundation" => "1990-03-30",
+                        "cpf_cnpj" => "2",
+
                 ],
                 [
                         "id" => 5,
@@ -44,7 +49,10 @@ $dadosPessoa = [
                         "phone" => "54 987618526",
                         "gender" => "M",
                         "type" => "CPF",
-                        "cep" => "78549000"
+                        "cep" => "78549000",
+                        "social" => "https://linkedin.com",
+                        "status" => "2"
+                        
                 ]
             ];
 
