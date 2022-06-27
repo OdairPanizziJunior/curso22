@@ -100,7 +100,7 @@
                                                         <input id="idCNPJ" class="form-check-input" type="radio" name="gridRadios1" value="2">
                                                         <label class="form-check-label"> CNPJ </label>
                                                     </div>
-                                                    <div class="col-md-2 col-sm-12">
+                                                    <div class="col-md-3 col-sm-12">
                                                         <input class="form-control" type="text" placeholder="type the numbers">
                                                     </div>
                                                 </div>
@@ -112,15 +112,15 @@
                                             <legend align="center" class="col-form-label col-md-2 col-sm-12 pt-0">Marietal Status:</legend>
                                                 <div class="col-md-10 col-sm-12">
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="radio" name="gridRadios2" value="CPF" checked>
+                                                        <input id="idSingle" class="form-check-input" type="radio" name="gridRadios2" value="1" checked>
                                                         <label class="form-check-label"> Single</label>
                                                     </div>
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="radio" name="gridRadios2" value="CNPJ">
+                                                        <input id="idRel" class="form-check-input" type="radio" name="gridRadios2" value="2">
                                                         <label class="form-check-label"> Relationship </label>
                                                     </div>
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="radio" name="gridRadios2" value="CNPJ">
+                                                        <input id="idComp" class="form-check-input" type="radio" name="gridRadios2" value="3">
                                                         <label class="form-check-label"> I'm a company </label>
                                                     </div>
                                                 </div>

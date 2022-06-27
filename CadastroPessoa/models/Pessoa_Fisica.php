@@ -13,6 +13,8 @@ class Pessoa_Fisica extends Pessoa{
     public $social = "";
     public $status = "";
     public $born_fundation = "";
+    public $cpf_cnpj = "";
+
 
     
 }

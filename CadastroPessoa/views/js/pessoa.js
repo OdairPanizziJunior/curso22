@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-    var baseUrl ="http://192.168.252.120/curso22/CadastroPessoa/controllers/PessoaController.php";
+    var baseUrl ="http://172.18.133.41/curso22/CadastroPessoa/controllers/PessoaController.php";
 
 
     $(".btnEditar").on("click", function(){
@@ -21,12 +21,26 @@ $( document ).ready(function() {
             $("#idStatus").val(dadosPessoa.status);
             $("#idBorn_Fundation").val(dadosPessoa.born_fundation);
             if (dadosPessoa.cpf_cnpj == 1){
-                $("#idCPF").prop('checked', true);
-                $("#idCNPJ").prop('checked', false);
-            }else{
-                $("#idCPF").prop('checked', false);
-                $("#idCNPJ").prop('checked', true);
-            };
+                    $("#idCPF").prop('checked', true);
+                    $("#idCNPJ").prop('checked', false);
+                }else{
+                    $("#idCPF").prop('checked', false);
+                    $("#idCNPJ").prop('checked', true);
+                };
+            
+            if (dadosPessoa.sing_rel_comp == 1){
+                    $("#idSing").prop('checked', true);
+                    $("#idRel").prop('checked', false);
+                    $("#idCom").prop('checked', false);
+                }else if (dadosPessoa.sing_rel_comp == 2){
+                    $("#idSing").prop('checked', false);
+                    $("#idRel").prop('checked', true);
+                    $("#idCom").prop('checked', false);
+                }else if (dadosPessoa.sing_rel_comp == 3){
+                    $("#idSing").prop('checked', false);
+                    $("#idRel").prop('checked', false);
+                    $("#idCom").prop('checked', true);
+                };
             $(".modal").modal('show');
         });
 
