@@ -20,6 +20,7 @@ $( document ).ready(function() {
             $("#idSocial").val(dadosPessoa.social);
             $("#idStatus").val(dadosPessoa.status);
             $("#idBorn_Fundation").val(dadosPessoa.born_fundation);
+
             if (dadosPessoa.cpf_cnpj == 1){
                     $("#idCPF").prop('checked', true);
                     $("#idCNPJ").prop('checked', false);
@@ -41,7 +42,15 @@ $( document ).ready(function() {
                     $("#idRel").prop('checked', false);
                     $("#idComp").prop('checked', true);
                 };
-                
+            
+            if (dadosPessoa.male_fema_comp == 1){
+                    $("#idCPF").prop('checked', true);
+                    $("#idCNPJ").prop('checked', false);
+                }else{
+                    $("#idCPF").prop('checked', false);
+                    $("#idCNPJ").prop('checked', true);
+                };
+            
             $(".modal").modal('show');
         });
 

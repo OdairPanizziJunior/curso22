@@ -132,15 +132,15 @@
                                             <legend align="center" class="col-form-label col-md-2 col-sm-12 pt-0">Gender:</legend>
                                                 <div class="col-md-10 col-sm-12">
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="radio" name="gridRadios3" value="CPF" checked>
+                                                        <input id="idMale" class="form-check-input" type="radio" name="gridRadios3" value="1" checked>
                                                         <label class="form-check-label"> Male</label>
                                                     </div>
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="radio" name="gridRadios3" value="CNPJ">
+                                                        <input id="idFemale" class="form-check-input" type="radio" name="gridRadios3" value="2">
                                                         <label class="form-check-label"> Female </label>
                                                     </div>
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="radio" name="gridRadios3" value="CNPJ">
+                                                        <input id="idCompany" class="form-check-input" type="radio" name="gridRadios3" value="3">
                                                         <label class="form-check-label"> I'm a company </label>
                                                     </div>
                                                 </div>
