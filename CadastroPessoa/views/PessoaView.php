@@ -88,8 +88,8 @@
                                             </div>
                                     </div>
 
-                                    <div class="row mb-0">
-                                        <fieldset class="row mb-3"> <!-- $CPF / $CNPJ  -->
+                                    <div class="row mb-0"><!-- $CPF / $CNPJ  -->
+                                        <fieldset class="row mb-3"> 
                                             <legend align="center" class="col-form-label col-md-2 col-sm-12 pt-0">Type</legend>
                                                 <div class="col-md-10 col-sm-12">
                                                     <div class="form-check">
@@ -149,28 +149,28 @@
 
                                     <div class="row mb-3"><!-- $RG -->
                                         <label align="center" class="col-md-2 col-sm-12 col-form-label">RG:</label>
-                                            <div class="col-md-2 col-sm-12">
-                                                <input class="form-control" type="text">
+                                            <div class="col-md-3 col-sm-12">
+                                                <input id="idRG" class="form-control" type="text">
                                             </div>
                                     </div>
 
                                     <div class="row mb-3"><!-- $PIS -->
                                         <label align="center" class="col-md-2 col-sm-12 col-form-label">PIS:</label>
-                                            <div class="col-md-2 col-sm-12">
-                                                <input class="form-control" type="text">
+                                            <div class="col-md-3 col-sm-12">
+                                                <input id="idPIS" class="form-control" type="text">
                                             </div>
                                     </div>
 
                                     <div class="row mb-3"><!-- $profession -->
                                         <label align="center" class="col-md-2 col-sm-12 col-form-label">Profession:</label>
-                                            <div class="col-md-2 col-sm-12">
-                                                <input class="form-control" type="text">
+                                            <div class="col-md-3 col-sm-12">
+                                                <input id="idProf" class="form-control" type="text">
                                             </div>
                                     </div>
 
                                     <div class="row mb-3"><!-- $CNAE -->
                                         <label align="center" class="col-md-2 col-sm-12 col-form-label">CNAE:</label>
-                                            <div class="col-md-2 col-sm-12">
+                                            <div class="col-md-3 col-sm-12">
                                                 <input class="form-control" type="text">
                                             </div> 
                                     </div>

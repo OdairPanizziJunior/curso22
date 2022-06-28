@@ -41,7 +41,10 @@ $dadosPessoa = [
                         "born_fundation" => "1990-03-30",
                         "cpf_cnpj" => "2",
                         "sing_rel_comp" => "3",
-                        "male_fema_comp" => "3"
+                        "male_fema_comp" => "3",
+                        "rg" => "1234567891",
+                        "pis" => "78962842",
+                        "prof" => "Procurando",
 
                 ],
                 [

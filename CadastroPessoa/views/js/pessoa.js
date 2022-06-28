@@ -20,6 +20,9 @@ $( document ).ready(function() {
             $("#idSocial").val(dadosPessoa.social);
             $("#idStatus").val(dadosPessoa.status);
             $("#idBorn_Fundation").val(dadosPessoa.born_fundation);
+            $("#idRG").val(dadosPessoa.rg);
+            $("#idPIS").val(dadosPessoa.pis);
+            $("#idProf").val(dadosPessoa.prof);
 
             if (dadosPessoa.cpf_cnpj == 1){
                     $("#idCPF").prop('checked', true);
@@ -56,7 +59,7 @@ $( document ).ready(function() {
                     $("#idFemale").prop('checked', false);
                     $("#idCompany").prop('checked', true);
                 };
-            
+        
             $(".modal").modal('show');
         });
 
