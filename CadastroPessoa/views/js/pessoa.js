@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-    var baseUrl ="http://172.18.133.41/curso22/CadastroPessoa/controllers/PessoaController.php";
+    var baseUrl ="http://172.27.210.105/curso22/CadastroPessoa/controllers/PessoaController.php";
 
 
     $(".btnEditar").on("click", function(){
@@ -31,16 +31,17 @@ $( document ).ready(function() {
             if (dadosPessoa.sing_rel_comp == 1){
                     $("#idSing").prop('checked', true);
                     $("#idRel").prop('checked', false);
-                    $("#idCom").prop('checked', false);
+                    $("#idComp").prop('checked', false);
                 }else if (dadosPessoa.sing_rel_comp == 2){
                     $("#idSing").prop('checked', false);
                     $("#idRel").prop('checked', true);
-                    $("#idCom").prop('checked', false);
+                    $("#idComp").prop('checked', false);
                 }else if (dadosPessoa.sing_rel_comp == 3){
                     $("#idSing").prop('checked', false);
                     $("#idRel").prop('checked', false);
-                    $("#idCom").prop('checked', true);
+                    $("#idComp").prop('checked', true);
                 };
+                
             $(".modal").modal('show');
         });
 
