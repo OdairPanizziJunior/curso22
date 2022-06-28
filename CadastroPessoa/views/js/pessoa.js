@@ -44,11 +44,17 @@ $( document ).ready(function() {
                 };
             
             if (dadosPessoa.male_fema_comp == 1){
-                    $("#idCPF").prop('checked', true);
-                    $("#idCNPJ").prop('checked', false);
-                }else{
-                    $("#idCPF").prop('checked', false);
-                    $("#idCNPJ").prop('checked', true);
+                    $("#idMale").prop('checked', true);
+                    $("#idFemale").prop('checked', false);
+                    $("#idCompany").prop('checked', false);
+                }else if (dadosPessoa.male_fema_comp == 2){
+                    $("#idMale").prop('checked', false);
+                    $("#idFemale").prop('checked', true);
+                    $("#idCompany").prop('checked', false);
+                }else if (dadosPessoa.male_fema_comp == 3){
+                    $("#idMale").prop('checked', false);
+                    $("#idFemale").prop('checked', false);
+                    $("#idCompany").prop('checked', true);
                 };
             
             $(".modal").modal('show');
