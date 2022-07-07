@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-    var baseUrl ="http://172.27.210.105/curso22/CadastroPessoa/controllers/PessoaController.php";
+    var baseUrl ="http://172.27.208.180/curso22/CadastroPessoa/controllers/PessoaController.php";
 
 
     $(".btnEditar").on("click", function(){
