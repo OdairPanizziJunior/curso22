@@ -171,7 +171,7 @@
                                     <div class="row mb-3"><!-- $CNAE -->
                                         <label align="center" class="col-md-2 col-sm-12 col-form-label">CNAE:</label>
                                             <div class="col-md-3 col-sm-12">
-                                                <input class="form-control" type="text">
+                                                <input id="idCNAE" class="form-control" type="text">
                                             </div> 
                                     </div>
                                     

@@ -45,6 +45,7 @@ $dadosPessoa = [
                         "rg" => "1234567891",
                         "pis" => "78962842",
                         "prof" => "Procurando",
+                        "cnae" => "0123456789",
 
                 ],
                 [

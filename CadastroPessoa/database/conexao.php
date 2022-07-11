@@ -13,8 +13,8 @@
 // }
 
     $servername = "sql8.freemysqlhosting.net";
-    $database ="sql8504538";
-    $username ="sql8504538";
+    $database ="sql8505623";
+    $username ="sql8505623";
     $password = "kuAzajcmal";
     $charset = "utf8";
 

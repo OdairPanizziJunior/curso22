@@ -1,3 +1,15 @@
+-- INFORMAÇÕES IMPORTANTES:
+
+-- SITE - https://www.freemysqlhosting.net/login/
+-- EMAIL - nfvvisstqsqanpozwl@kvhrs.com
+-- SENHA - kuAzajcmal
+
+-- SITE - https://www.phpmyadmin.co/index.php
+-- SERVIDOR - sql8.freemysqlhosting.net
+-- USER - sql8505623
+-- SENHA - EQ9hIKH3LL
+
+
 -- MySQL dump 10.13  Distrib 5.5.62, for Win64 (AMD64)
 --
 -- Host: localhost    Database: curso22

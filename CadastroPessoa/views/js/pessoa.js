@@ -23,6 +23,7 @@ $( document ).ready(function() {
             $("#idRG").val(dadosPessoa.rg);
             $("#idPIS").val(dadosPessoa.pis);
             $("#idProf").val(dadosPessoa.prof);
+            $("#idCNAE").val(dadosPessoa.cnae);
 
             if (dadosPessoa.cpf_cnpj == 1){
                     $("#idCPF").prop('checked', true);
